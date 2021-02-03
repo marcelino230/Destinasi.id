@@ -1,0 +1,258 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	background-color: #f2f2f2;
+	margin: 0;
+	overflow-x: hidden;
+}
+header nav{
+	display: flex;
+	justify-content: space-between;
+	box-sizing: border-box;
+	padding: 0px 50px;
+	margin-top: -5px;
+	font-weight: bold;
+	position: fixed;
+	z-index: 2;
+	width: 100%;
+	background-color: white;
+	margin-bottom: 50px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+header nav h1{
+	font-family: Lora;
+	color: #6fa8ff;
+}
+header nav ul{
+	display: flex;
+	justify-content: space-evenly;
+}
+header nav ul li{
+	margin-left: 85px;
+	list-style: none;
+	line-height: 50px;
+}
+header nav ul li a{
+	color: #35455e;
+	text-decoration: none;
+}
+header nav ul li button.profile{
+	padding: 5px;
+	background-color: #8ab9ff;
+	color: #6fa8ff;
+	border: none;
+	width: 50px;
+	font-size: 15px;
+	font-weight: bold;
+	border-radius: 10px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+header nav ul li button.signup{
+	padding: 15px;
+	background-color: #6fa8ff;
+	color: white;
+	border: none;
+	width: 100px;
+	font-size: 15px;
+	font-weight: bold;
+	border-radius: 10px;
+	margin-left: 10px;
+	margin-top: 0px;
+	cursor: pointer;
+}
+section{
+	width: 90%;
+	background-color: white;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+section iframe{
+	width: 100%;
+}
+section.destination_profile{
+	display: flex;
+	height: 500px;
+}
+section div.article{
+	box-sizing: border-box;
+	padding: 30px;
+	padding-left: 45px;
+	flex: 1;
+	overflow: scroll;
+}
+section div.article h1{
+	font-size: 40px;
+	color: #35455e;
+	font-family: Lora;
+}
+section div.article p{
+	color: grey;
+	text-align: justify;
+}
+section div.article li{
+	color: grey;
+	text-align: justify;
+}
+section div.article img{
+	margin-left: 50px;
+}
+section div.ilustration{
+	flex: 1;
+}
+.container {
+  max-width: 760px;
+  margin: auto;
+  border: #fff solid 3px;
+  background: #fff;
+}
+:root {
+  --fade-time: 0.5s;
+}
+
+.main-img img{
+  width: 100%;
+  height: 400px;
+}
+.imgs img{
+	width: 100%;
+	height: 100px;
+}
+
+.imgs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+}
+
+.imgs img {
+  cursor: pointer;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn var(--fade-time) ease-in 1 forwards;
+}
+
+section.location h1{
+	font-size: 40px;
+	color: #35455e;
+	font-family: Lora;
+	text-align: center;
+}
+section.location{
+	padding-bottom: 30px;
+	margin-bottom: 50px;
+}
+section.location .location_description{
+	box-sizing: border-box;
+	display: flex;
+}
+section.location .location_description p{
+	flex: 1;
+	margin-right: 100px;
+	color: grey;
+	text-align: justify;
+	font-size: 20px;
+}
+section.location .location_description div{
+	flex: 1;
+	text-align: center;
+}
+section.culinary{
+	padding: 30px;
+	box-sizing: border-box;
+	margin-bottom: 50px;
+}
+section.culinary h1{
+	font-size: 40px;
+	color: #35455e;
+	font-family: Lora;
+	text-align: center;
+}
+section.culinary p{
+	color: grey;
+	font-size: 20px;
+	text-align: center;
+}
+section.culinary .culinary_cards{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	box-sizing: border-box;
+}
+section.culinary .culinary_cards .culinary_card{
+	width: 35%;
+	height: 350px;
+	margin-top: 40px;
+	background-color: white;
+	box-sizing: border-box;
+	padding: 20px; 
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	text-align: center;
+	transition: 0.5s;
+	border-radius: 20px;
+}
+
+section.culinary .culinary_cards .culinary_card h2{
+	font-family: Lora;
+	color: #35455e;
+	transition: 0.5s;
+}
+section.culinary .culinary_cards .culinary_card img{
+	width: 100%;
+	height: 80%;
+	object-fit: cover;
+	border-radius: 20px;
+	transition: 0.5s;
+}
+section.culinary .culinary_cards .culinary_card p{
+	margin: -270px auto;
+	color: white;
+	transition: 0.5s;
+	opacity: 0;
+	font-weight: bold;
+	text-align: justify;
+}
+section.culinary .culinary_cards .culinary_card:hover{
+	background-color: #6fa8ff;
+}
+section.culinary .culinary_cards .culinary_card:hover img{
+	opacity: 0; 
+}
+section.culinary .culinary_cards .culinary_card:hover h2{
+	opacity: 0;
+}
+section.culinary .culinary_cards .culinary_card:hover p{
+	opacity: 1;
+}
+section.akomodasi{
+	text-align: center;
+}
+section.akomodasi h1{
+	font-size: 40px;
+	color: #35455e;
+	font-family: Lora;
+}
+section.akomodasi p{
+	color: grey;
+}
+section.akomodasi img{
+	width: 200px;
+	height: 200px;
+	margin-left: 30px;
+	border-radius: 20px;
+	transition: 0.5s;
+}
+.border{
+	border: 1px solid grey;
+}
+section.akomodasi img:hover{
+	transform: scale(1.03);
+}

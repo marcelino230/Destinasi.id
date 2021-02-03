@@ -1,0 +1,358 @@
+html{
+	scroll-behavior: smooth;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+	margin: 0;
+	overflow-x: hidden;
+}
+section{
+	min-height: 100vh;
+	margin-bottom: 50px;
+}
+section#contact{
+	margin-bottom: 0;
+}
+header nav{
+	display: flex;
+	justify-content: space-between;
+	box-sizing: border-box;
+	padding: 0px 50px;
+	margin-top: 20px;
+	font-weight: bold;
+	position: relative;
+	z-index: 2;
+}
+header nav h1{
+	font-family: Lora;
+	color: #6fa8ff;
+}
+header nav ul{
+	display: flex;
+	justify-content: space-evenly;
+}
+header nav ul li{
+	margin-left: 85px;
+	list-style: none;
+	line-height: 50px;
+}
+header nav ul li a{
+	color: #35455e;
+	text-decoration: none;
+}
+header nav ul li a.white{
+	color: white;
+	font-weight: normal;
+}
+header nav ul li button.profile{
+	padding: 5px;
+	background-color: #8ab9ff;
+	color: #6fa8ff;
+	border: none;
+	width: 50px;
+	font-size: 15px;
+	font-weight: bold;
+	border-radius: 10px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+header nav ul li button.signup{
+	padding: 15px;
+	background-color: white;
+	color: #6fa8ff;
+	border: none;
+	width: 100px;
+	font-size: 15px;
+	font-weight: bold;
+	border-radius: 10px;
+	margin-left: 10px;
+	margin-top: 0px;
+	cursor: pointer;
+}
+main section#overview .destination{
+	width: 40%;
+	margin-left: 50px;
+	margin-top: -50px;
+}
+main section#overview .destination h1{
+	font-size: 80px;
+	color: #35455e;
+	font-family: Lora;
+}
+main section#overview .destination h1 span{
+	color: #6fa8ff;
+}
+main section#overview .destination p.description{
+	margin-top: -50px;
+	color: grey;
+	text-align: justify;
+}
+main section#overview .destination .destination_popular{
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	left: 0;
+	top: 410px;
+	width: 45%;
+}
+main section#overview .destination .destination_popular .label_popular{
+	height: 20px;
+	text-align: right;
+	width: 100px;
+	background-color: #6fa8ff;
+	color: white;
+	padding: 10px;
+	padding-right: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+main section#overview .destination .destination_popular a{
+	margin-top: 0px;
+	color: grey;
+	text-decoration: none;
+	transition: 0.3s;
+}
+main section#overview .destination .popular_overview{
+	width: 103%;
+	margin-top: 70px;
+	display: flex;
+	justify-content: space-between;
+}
+main section#overview .destination .popular_overview a{
+	text-decoration: none;
+}
+main section#overview .destination .popular_overview .card{
+	transition: 0.3s;
+}
+main section#overview .destination .popular_overview .card p{
+	margin-top: 0px;
+	font-weight: bold;
+	color: #35455e;
+}
+main section#overview .destination .popular_overview .card img{
+	border-radius: 10px;
+}
+
+main section#overview .destination .popular_overview .star{
+	display: flex;
+	margin-left: 10px;
+}
+main section#overview div.destination_search{
+	background-color: #6fa8ff;
+	width: 40%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 1;
+	height: 100vh;
+}
+main section#overview div.destination_search .destination_data{
+	width: 60%;
+	height: 77%;
+	background-color: white;
+	margin: auto;
+	margin-top: 150px;
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+	display: flex;
+	justify-content: row;
+	box-sizing: border-box;
+	padding: 80px 30px;
+}
+main section#overview div.destination_search .destination_data form label{
+	font-weight: bold;
+	color: #6fa8ff;
+}
+main section#overview div.destination_search .destination_data form input{
+	width: 260px;
+	height: 40px;
+	margin-bottom: 40px;
+	background-color: #f1f1f1;
+	border: none;
+}
+main section#overview div.destination_search .destination_data form button{
+	width: 260px;
+	height: 50px;
+	color: white;
+	font-size: 18px;
+	background-color: #6fa8ff;
+	border: none;
+	line-height: 50px;
+	cursor: pointer;
+}
+main section#overview div.destination_search .destination_data form button img{
+	margin-top: 10px;
+	margin-right: 10px;
+	height: 20px;
+}
+
+main section#overview div.destination_search .destination_data form button:active{
+	background-color: #357CE7;
+}
+section#features{
+	margin-top: -100px;
+	box-sizing: border-box;
+	padding: 40px;
+}
+section#features .features_overview .features_desc{
+	width: 50%;
+	margin-bottom: 60px;
+}
+section#features .features_overview h1{
+	font-family: Lora;
+	font-size: 40px;
+	color: #35455e;
+}
+section#features .features_overview p{
+	color: grey;
+	font-size: 18px;
+}
+section#features .features_overview .features_card{
+	display: flex;
+	justify-content: space-between;
+	box-sizing: border-box;
+}
+section#features .features_overview .features_card .card{
+	width: 250px;
+	height: 250px;
+	margin-top: 40px;
+	background-color: #fff6d7;
+	box-sizing: border-box;
+	padding: 40px; 
+}
+section#features .features_overview .features_card .card img{
+	position: relative;
+	width: 80px;
+	bottom: 80px;
+}
+section#features .features_overview .features_card .card h2{
+	font-family: Lora;
+	color: #35455e;
+	margin-top: -60px;
+}
+section#features .features_overview .features_card .card.two{
+	background-color:#ebdcf9;
+ 
+}
+section#features .features_overview .features_card .card.three{
+	background-color: #ddf6fd;
+}
+section#features .features_overview .features_card .card.four{
+	background-color: #dcf7e8;
+}
+section#about{
+	margin-top: 150px;
+}
+section#about .grey-box{
+	width: 550px;
+	height: 550px;
+	background-color: #f3effe;
+	margin: -70px auto;
+	border-radius: 20px;
+}
+section#about .white-box{
+	text-align: center;
+	width: 400px;
+	position: absolute;
+	top: 1650px;
+	left: 200px;
+	border-radius: 20px;
+	background-color: white;
+	height: 400px;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+section#about .white-box h1{
+	font-family: Lora;
+	color: #6fa8ff;
+}
+section#about .about_destinesia{
+	position: absolute;
+	right: 150px;
+	top: 1670px;
+	width: 500px;
+	font-size: 25px;
+	color: #35455e;
+	font-family: Lora;
+}
+section#about .about_destinesia h1 span{
+	color: #357CE7;
+}
+section#about .about_destinesia p{
+	text-align: justify;
+	font-size: 18px;
+	font-family: Roboto;
+}
+section#contact{
+	background-color: #35455e;
+	box-sizing: border-box;
+	padding: 80px;
+	height: 100vh;
+}
+section#contact .contact_me{
+	width: 40%;
+}
+section#contact .contact_me a{
+	font-family: Roboto;
+	font-size: 20px;
+	color: #cae2ea;
+	font-weight: bold;
+}
+section#contact h1{
+	font-family: Lora;
+	color: white;
+	font-size: 50px;
+}
+section#contact p{
+	font-family: Roboto;
+	font-size: 20px;
+	color: #cae2ea;
+	text-align: justify;
+}
+section#contact .destinesia_logo{
+	margin-top: 180px;
+	display: flex;
+}
+section#contact .destinesia_logo h3{
+	font-family: Lora;
+	color: #6fa8ff;
+}
+section#contact .navigate,section#contact .social_media{
+	position: relative;
+	left: 700px;
+	bottom: 400px;
+}
+section#contact .navigate li,section#contact .social_media li{
+	list-style: none;
+	margin-bottom: 50px;
+}
+section#contact .navigate a,section#contact .social_media a{
+	text-decoration: none;
+	font-size: 30px;
+	color: #cae2ea;
+}
+section#contact .social_media{
+	top: -790px;
+	left: 1000px;
+}
+/*ANIMASI*/
+
+main section#overview .destination .popular_overview .card:hover{
+	transform: scale(1.05);
+}
+main section#overview .destination .destination_popular a:hover{
+	font-weight: bold;
+}
+header nav ul li button.signup:active{
+	opacity: 0.8;
+}
+header nav ul li button.profile:active{
+	opacity: 0.8;
+}
+section#contact .navigate a:hover{
+	color: white;
+}
+section#contact div.social_media img:hover{
+	transform: scale(1.1);
+}
